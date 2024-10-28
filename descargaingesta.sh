@@ -20,3 +20,5 @@ hdfs dfs -put "$LOCAL_DIR/$FILENAME" "$HDFS_DIR"
 
 # Mensaje de confirmación
 echo "Archivo $FILENAME descargado y movido a HDFS en $HDFS_DIR"
+
+#no olvidar asignar permisos chmod +x al script
